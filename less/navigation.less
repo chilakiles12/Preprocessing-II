@@ -3,6 +3,11 @@ header {
   border-bottom: 5px dashed lightgray;
   display: flex;
   justify-content: space-between;
+  @media (max-width: 500px) {
+    border: 1px solid black;
+    flex-flow: column;
+  }
+
   nav {
     display: flex;
   }
