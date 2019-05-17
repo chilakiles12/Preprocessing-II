@@ -168,7 +168,12 @@ img {
   width: 100%;
   margin: 0 auto;
 }
+.fun-bus {
+  border: 1px solid black;
+  display: flex;
+}
 .footer {
+  border: 1px solid black;
   width: 100%;
   border-top: 2px dashed silver;
   background: #FFEBCD;
